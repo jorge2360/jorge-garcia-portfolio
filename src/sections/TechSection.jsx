@@ -23,7 +23,7 @@ const techGroups = [
 
 function TechSection() {
   return (
-    <section id="tech" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="tech" className="fade-up mx-auto max-w-6xl px-6 py-20">
       <h2 className="text-3xl font-bold">Tecnologías y herramientas</h2>
       <p className="mt-4 text-slate-300">
         Tecnologías utilizadas en proyectos académicos y personales.
@@ -33,7 +33,7 @@ function TechSection() {
         {techGroups.map((group) => (
           <article
             key={group.title}
-            className="rounded-2xl border border-slate-800 bg-slate-900 p-6"
+            className="rounded-2xl border border-slate-800 bg-slate-900 p-6 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10"
           >
             <h3 className="text-xl font-semibold text-blue-400">{group.title}</h3>
 

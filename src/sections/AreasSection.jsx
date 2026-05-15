@@ -30,7 +30,7 @@ const areas = [
 
 function AreasSection() {
   return (
-    <section id="areas" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="areas" className="fade-up mx-auto max-w-6xl px-6 py-20">
       <h2 className="text-3xl font-bold">Áreas de interés profesional</h2>
       <p className="mt-4 text-slate-300">
         Áreas en las que busco desarrollarme profesionalmente como perfil junior.
@@ -43,7 +43,7 @@ function AreasSection() {
           return (
             <article
               key={area.title}
-              className="rounded-2xl border border-slate-800 bg-slate-900 p-6 transition hover:-translate-y-1 hover:border-blue-500"
+              className="fade-up rounded-2xl border border-slate-800 bg-slate-900 p-6 transition duration-300 hover:-translate-y-1 hover:border-blue-500 hover:shadow-lg hover:shadow-blue-500/10"
             >
               <div className="mb-4 inline-flex rounded-xl bg-blue-500/10 p-3 text-blue-400">
                 <Icon size={26} />

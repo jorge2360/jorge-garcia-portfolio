@@ -1,6 +1,6 @@
 function AboutSection() {
   return (
-    <section id="about" className="mx-auto max-w-6xl px-6 py-20">
+    <section id="about" className="fade-up mx-auto max-w-6xl px-6 py-20">
       <h2 className="text-3xl font-bold">Sobre mí</h2>
 
       <p className="mt-4 max-w-4xl text-slate-300">
